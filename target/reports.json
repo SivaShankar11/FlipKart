@@ -1,0 +1,158 @@
+[
+  {
+    "line": 4,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 13880658400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.beforeAll()"
+            }
+          }
+        ],
+        "line": 7,
+        "name": "Add an item to the cart",
+        "description": "",
+        "id": "flipkart-site-automation;add-an-item-to-the-cart",
+        "after": [
+          {
+            "result": {
+              "duration": 3986155400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.afterAll()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 168857100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Launch browser",
+            "match": {
+              "location": "FlipkartStepDefinition.launch_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 6950992700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user enters username password",
+            "match": {
+              "location": "FlipkartStepDefinition.user_enters_username_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1210209800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "clicks on the login button",
+            "match": {
+              "location": "FlipkartStepDefinition.clicks_on_the_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9772370700,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "user enters the data on the search bar",
+            "match": {
+              "location": "FlipkartStepDefinition.user_enters_the_data_on_the_search_bar()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1326711900,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "clicks on the search button",
+            "match": {
+              "location": "FlipkartStepDefinition.clicks_on_the_search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 2318037100,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "clicks on the item",
+            "match": {
+              "location": "FlipkartStepDefinition.clicks_on_the_item()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3865773100,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "clicks on the add to cart button",
+            "match": {
+              "location": "FlipkartStepDefinition.clicks_on_the_add_to_cart_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 204585400,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "user validates the order by the place order text",
+            "match": {
+              "location": "FlipkartStepDefinition.user_validates_the_order_by_the_place_order_text()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@tagflipkartfeature"
+          },
+          {
+            "name": "@tag1additemaddtocart"
+          }
+        ]
+      }
+    ],
+    "name": "flipkart site automation",
+    "description": "",
+    "id": "flipkart-site-automation",
+    "keyword": "Feature",
+    "uri": "src/test/resources/feature/flipkart.feature",
+    "tags": [
+      {
+        "name": "@tagflipkartfeature",
+        "type": "Tag",
+        "location": {
+          "line": 3,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
