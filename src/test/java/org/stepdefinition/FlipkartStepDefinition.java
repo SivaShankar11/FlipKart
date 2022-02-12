@@ -1,5 +1,6 @@
 package org.stepdefinition;
 
+import java.io.IOException;
 import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
@@ -30,10 +31,13 @@ public class FlipkartStepDefinition extends CommonAction{
 	}
 
 	@When("user enters username password")
-	public void user_enters_username_password() throws InterruptedException {
+	public void user_enters_username_password() throws InterruptedException, IOException {
 		//		WebElement username = driver.findElement(By.xpath("((//input[@type='text'])[2])"));
+		
+		ca.takepic();
 		ca.insertText(lo.getUsername(),"9080304979");
 
+		ca.takepic();
 		//		WebElement password = driver.findElement(By.xpath("//input[@type='password']"));
 		ca.insertText(lo.getPassword(),"Flipkrt11!" );
 
